@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4262847F2C3015AE00B695BE /* HappyGraduationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4262847E2C3015AE00B695BE /* HappyGraduationApp.swift */; };
+		426284812C3015AE00B695BE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426284802C3015AE00B695BE /* ContentView.swift */; };
+		426284862C3015B000B695BE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 426284852C3015B000B695BE /* Preview Assets.xcassets */; };
+		4262848D2C30164F00B695BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4262848C2C30164F00B695BE /* Assets.xcassets */; };
+		426284932C3018B000B695BE /* CardContentItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426284922C3018B000B695BE /* CardContentItem.swift */; };
+		426284952C3018D100B695BE /* CardContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426284942C3018D100B695BE /* CardContext.swift */; };
+		4262849B2C30347C00B695BE /* VideoPlayer in Frameworks */ = {isa = PBXBuildFile; productRef = 4262849A2C30347C00B695BE /* VideoPlayer */; };
+		42A1E4B32C312D5200AE6FD8 /* FourMenSleeping.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 42A1E4AF2C312D4200AE6FD8 /* FourMenSleeping.mp4 */; };
+		42A1E4B42C312D5200AE6FD8 /* DancingHsin.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 42A1E4B02C312D4F00AE6FD8 /* DancingHsin.mp4 */; };
+		42A1E4B52C312D5200AE6FD8 /* Concert.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 42A1E4B12C312D5100AE6FD8 /* Concert.mp4 */; };
+		42A1E4B62C312D5200AE6FD8 /* PeopleTurning.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 42A1E4B22C312D5200AE6FD8 /* PeopleTurning.mp4 */; };
+		42A1E4B82C312F1F00AE6FD8 /* VideoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A1E4B72C312F1F00AE6FD8 /* VideoData.swift */; };
+		42A1E4BA2C32CFD600AE6FD8 /* WelcomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A1E4B92C32CFD600AE6FD8 /* WelcomePage.swift */; };
+		42A1E4C02C32F9CC00AE6FD8 /* ArticleDisplayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A1E4BF2C32F9CC00AE6FD8 /* ArticleDisplayer.swift */; };
+		42A1E4C72C33FA8000AE6FD8 /* GraduationArticle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A1E4C62C33FA8000AE6FD8 /* GraduationArticle.swift */; };
+		42A1E4C92C34194100AE6FD8 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42A1E4C82C34194100AE6FD8 /* Launch Screen.storyboard */; };
+		42B0EBD62C39394F002719F5 /* VideoError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B0EBD52C39394F002719F5 /* VideoError.swift */; };
+		42B0EBD92C393990002719F5 /* ImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B0EBD82C393990002719F5 /* ImageExtension.swift */; };
+		42B0EBDB2C3939B4002719F5 /* TextExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B0EBDA2C3939B4002719F5 /* TextExtension.swift */; };
+		42B0EBDE2C393D63002719F5 /* CardContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B0EBDD2C393D63002719F5 /* CardContent.swift */; };
+		42B0EBE22C393FA1002719F5 /* VideoResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B0EBE12C393FA1002719F5 /* VideoResource.swift */; };
+		42BA53602C3651E600F62E4B /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BA535F2C3651E600F62E4B /* HomePage.swift */; };
+		42BA53622C36532600F62E4B /* GiftCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BA53612C36532600F62E4B /* GiftCell.swift */; };
+		42BA53642C36536E00F62E4B /* Gift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BA53632C36536E00F62E4B /* Gift.swift */; };
+		42BA53662C3676B500F62E4B /* IncenseStick.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 42BA53652C3676B500F62E4B /* IncenseStick.mp4 */; };
+		42BA536B2C367F8C00F62E4B /* BookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BA53682C367F8B00F62E4B /* BookView.swift */; };
+		42BA536C2C367F8C00F62E4B /* OpenableBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BA53692C367F8C00F62E4B /* OpenableBook.swift */; };
+		42BA536D2C367F8C00F62E4B /* OpenableBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BA536A2C367F8C00F62E4B /* OpenableBookView.swift */; };
+		42BA53702C36800A00F62E4B /* BookViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BA536F2C36800A00F62E4B /* BookViewModel.swift */; };
+		42BC84C12C3836F90085C3A3 /* LastVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 42BC84C02C3836F90085C3A3 /* LastVideo.mp4 */; };
+		42BC84C32C384A5E0085C3A3 /* CardContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BC84C22C384A5E0085C3A3 /* CardContentViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4262847B2C3015AE00B695BE /* 畢 ya 了.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "畢 ya 了.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4262847E2C3015AE00B695BE /* HappyGraduationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyGraduationApp.swift; sourceTree = "<group>"; };
+		426284802C3015AE00B695BE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		426284852C3015B000B695BE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4262848C2C30164F00B695BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		426284922C3018B000B695BE /* CardContentItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CardContentItem.swift; path = HappyGraduation/Card/CardContentItem.swift; sourceTree = SOURCE_ROOT; };
+		426284942C3018D100B695BE /* CardContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CardContext.swift; path = HappyGraduation/Card/CardContext.swift; sourceTree = SOURCE_ROOT; };
+		42A1E4AF2C312D4200AE6FD8 /* FourMenSleeping.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = FourMenSleeping.mp4; sourceTree = "<group>"; };
+		42A1E4B02C312D4F00AE6FD8 /* DancingHsin.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = DancingHsin.mp4; sourceTree = "<group>"; };
+		42A1E4B12C312D5100AE6FD8 /* Concert.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Concert.mp4; sourceTree = "<group>"; };
+		42A1E4B22C312D5200AE6FD8 /* PeopleTurning.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = PeopleTurning.mp4; sourceTree = "<group>"; };
+		42A1E4B72C312F1F00AE6FD8 /* VideoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoData.swift; sourceTree = "<group>"; };
+		42A1E4B92C32CFD600AE6FD8 /* WelcomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePage.swift; sourceTree = "<group>"; };
+		42A1E4BF2C32F9CC00AE6FD8 /* ArticleDisplayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDisplayer.swift; sourceTree = "<group>"; };
+		42A1E4C62C33FA8000AE6FD8 /* GraduationArticle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraduationArticle.swift; sourceTree = "<group>"; };
+		42A1E4C82C34194100AE6FD8 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		42B0EBD52C39394F002719F5 /* VideoError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoError.swift; sourceTree = "<group>"; };
+		42B0EBD82C393990002719F5 /* ImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExtension.swift; sourceTree = "<group>"; };
+		42B0EBDA2C3939B4002719F5 /* TextExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextExtension.swift; sourceTree = "<group>"; };
+		42B0EBDD2C393D63002719F5 /* CardContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardContent.swift; sourceTree = "<group>"; };
+		42B0EBE12C393FA1002719F5 /* VideoResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoResource.swift; sourceTree = "<group>"; };
+		42BA535F2C3651E600F62E4B /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		42BA53612C36532600F62E4B /* GiftCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftCell.swift; sourceTree = "<group>"; };
+		42BA53632C36536E00F62E4B /* Gift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gift.swift; sourceTree = "<group>"; };
+		42BA53652C3676B500F62E4B /* IncenseStick.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = IncenseStick.mp4; sourceTree = "<group>"; };
+		42BA53682C367F8B00F62E4B /* BookView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookView.swift; sourceTree = "<group>"; };
+		42BA53692C367F8C00F62E4B /* OpenableBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenableBook.swift; sourceTree = "<group>"; };
+		42BA536A2C367F8C00F62E4B /* OpenableBookView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenableBookView.swift; sourceTree = "<group>"; };
+		42BA536F2C36800A00F62E4B /* BookViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookViewModel.swift; sourceTree = "<group>"; };
+		42BC84C02C3836F90085C3A3 /* LastVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = LastVideo.mp4; sourceTree = "<group>"; };
+		42BC84C22C384A5E0085C3A3 /* CardContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardContentViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		426284782C3015AE00B695BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4262849B2C30347C00B695BE /* VideoPlayer in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		426284722C3015AE00B695BE = {
+			isa = PBXGroup;
+			children = (
+				4262847D2C3015AE00B695BE /* HappyGraduation */,
+				4262847C2C3015AE00B695BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4262847C2C3015AE00B695BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4262847B2C3015AE00B695BE /* 畢 ya 了.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4262847D2C3015AE00B695BE /* HappyGraduation */ = {
+			isa = PBXGroup;
+			children = (
+				4262847E2C3015AE00B695BE /* HappyGraduationApp.swift */,
+				426284802C3015AE00B695BE /* ContentView.swift */,
+				42A1E4C82C34194100AE6FD8 /* Launch Screen.storyboard */,
+				42B0EBD72C393976002719F5 /* Extension */,
+				42BA536E2C367FF100F62E4B /* ViewModel */,
+				42A1E4C12C33BBC600AE6FD8 /* Resource */,
+				426284962C30301300B695BE /* View */,
+				426284912C30189500B695BE /* Model */,
+				4262848C2C30164F00B695BE /* Assets.xcassets */,
+				426284842C3015B000B695BE /* Preview Content */,
+			);
+			path = HappyGraduation;
+			sourceTree = "<group>";
+		};
+		426284842C3015B000B695BE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				426284852C3015B000B695BE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		426284912C30189500B695BE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				42B0EBD42C39393C002719F5 /* Error */,
+				426284942C3018D100B695BE /* CardContext.swift */,
+				426284922C3018B000B695BE /* CardContentItem.swift */,
+				42A1E4B72C312F1F00AE6FD8 /* VideoData.swift */,
+				42BA53632C36536E00F62E4B /* Gift.swift */,
+				42B0EBE12C393FA1002719F5 /* VideoResource.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		426284962C30301300B695BE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				42B0EBDC2C393CDB002719F5 /* MainView */,
+				42B0EBE02C393D8D002719F5 /* Subview */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4262849C2C305ACB00B695BE /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				42BC84C02C3836F90085C3A3 /* LastVideo.mp4 */,
+				42BA53652C3676B500F62E4B /* IncenseStick.mp4 */,
+				42A1E4B12C312D5100AE6FD8 /* Concert.mp4 */,
+				42A1E4B02C312D4F00AE6FD8 /* DancingHsin.mp4 */,
+				42A1E4AF2C312D4200AE6FD8 /* FourMenSleeping.mp4 */,
+				42A1E4B22C312D5200AE6FD8 /* PeopleTurning.mp4 */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		42A1E4C12C33BBC600AE6FD8 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				42A1E4C52C33FA6D00AE6FD8 /* Article */,
+				4262849C2C305ACB00B695BE /* Video */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		42A1E4C52C33FA6D00AE6FD8 /* Article */ = {
+			isa = PBXGroup;
+			children = (
+				42A1E4C62C33FA8000AE6FD8 /* GraduationArticle.swift */,
+			);
+			path = Article;
+			sourceTree = "<group>";
+		};
+		42B0EBD42C39393C002719F5 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				42B0EBD52C39394F002719F5 /* VideoError.swift */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		42B0EBD72C393976002719F5 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				42B0EBD82C393990002719F5 /* ImageExtension.swift */,
+				42B0EBDA2C3939B4002719F5 /* TextExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		42B0EBDC2C393CDB002719F5 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				42BA53672C367F6300F62E4B /* Book */,
+				42B0EBDD2C393D63002719F5 /* CardContent.swift */,
+				42A1E4B92C32CFD600AE6FD8 /* WelcomePage.swift */,
+				42A1E4BF2C32F9CC00AE6FD8 /* ArticleDisplayer.swift */,
+				42BA535F2C3651E600F62E4B /* HomePage.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		42B0EBE02C393D8D002719F5 /* Subview */ = {
+			isa = PBXGroup;
+			children = (
+				42BA536A2C367F8C00F62E4B /* OpenableBookView.swift */,
+				42BA53612C36532600F62E4B /* GiftCell.swift */,
+			);
+			path = Subview;
+			sourceTree = "<group>";
+		};
+		42BA53672C367F6300F62E4B /* Book */ = {
+			isa = PBXGroup;
+			children = (
+				42BA53682C367F8B00F62E4B /* BookView.swift */,
+				42BA53692C367F8C00F62E4B /* OpenableBook.swift */,
+			);
+			path = Book;
+			sourceTree = "<group>";
+		};
+		42BA536E2C367FF100F62E4B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				42BA536F2C36800A00F62E4B /* BookViewModel.swift */,
+				42BC84C22C384A5E0085C3A3 /* CardContentViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4262847A2C3015AE00B695BE /* HappyGraduation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 426284892C3015B000B695BE /* Build configuration list for PBXNativeTarget "HappyGraduation" */;
+			buildPhases = (
+				426284772C3015AE00B695BE /* Sources */,
+				426284782C3015AE00B695BE /* Frameworks */,
+				426284792C3015AE00B695BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HappyGraduation;
+			packageProductDependencies = (
+				4262849A2C30347C00B695BE /* VideoPlayer */,
+			);
+			productName = HappyGraduation;
+			productReference = 4262847B2C3015AE00B695BE /* 畢 ya 了.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		426284732C3015AE00B695BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					4262847A2C3015AE00B695BE = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 426284762C3015AE00B695BE /* Build configuration list for PBXProject "HappyGraduation" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 426284722C3015AE00B695BE;
+			packageReferences = (
+				426284992C30347C00B695BE /* XCRemoteSwiftPackageReference "VideoPlayer" */,
+			);
+			productRefGroup = 4262847C2C3015AE00B695BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4262847A2C3015AE00B695BE /* HappyGraduation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		426284792C3015AE00B695BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42A1E4B62C312D5200AE6FD8 /* PeopleTurning.mp4 in Resources */,
+				42A1E4B42C312D5200AE6FD8 /* DancingHsin.mp4 in Resources */,
+				42BA53662C3676B500F62E4B /* IncenseStick.mp4 in Resources */,
+				42A1E4B32C312D5200AE6FD8 /* FourMenSleeping.mp4 in Resources */,
+				42A1E4B52C312D5200AE6FD8 /* Concert.mp4 in Resources */,
+				42BC84C12C3836F90085C3A3 /* LastVideo.mp4 in Resources */,
+				4262848D2C30164F00B695BE /* Assets.xcassets in Resources */,
+				426284862C3015B000B695BE /* Preview Assets.xcassets in Resources */,
+				42A1E4C92C34194100AE6FD8 /* Launch Screen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		426284772C3015AE00B695BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42BA536C2C367F8C00F62E4B /* OpenableBook.swift in Sources */,
+				42B0EBD92C393990002719F5 /* ImageExtension.swift in Sources */,
+				42BC84C32C384A5E0085C3A3 /* CardContentViewModel.swift in Sources */,
+				426284812C3015AE00B695BE /* ContentView.swift in Sources */,
+				42BA53622C36532600F62E4B /* GiftCell.swift in Sources */,
+				42BA536D2C367F8C00F62E4B /* OpenableBookView.swift in Sources */,
+				42BA53702C36800A00F62E4B /* BookViewModel.swift in Sources */,
+				42BA536B2C367F8C00F62E4B /* BookView.swift in Sources */,
+				42B0EBD62C39394F002719F5 /* VideoError.swift in Sources */,
+				42BA53642C36536E00F62E4B /* Gift.swift in Sources */,
+				426284932C3018B000B695BE /* CardContentItem.swift in Sources */,
+				42B0EBDB2C3939B4002719F5 /* TextExtension.swift in Sources */,
+				42A1E4C72C33FA8000AE6FD8 /* GraduationArticle.swift in Sources */,
+				4262847F2C3015AE00B695BE /* HappyGraduationApp.swift in Sources */,
+				42B0EBDE2C393D63002719F5 /* CardContent.swift in Sources */,
+				42B0EBE22C393FA1002719F5 /* VideoResource.swift in Sources */,
+				42BA53602C3651E600F62E4B /* HomePage.swift in Sources */,
+				42A1E4BA2C32CFD600AE6FD8 /* WelcomePage.swift in Sources */,
+				426284952C3018D100B695BE /* CardContext.swift in Sources */,
+				42A1E4B82C312F1F00AE6FD8 /* VideoData.swift in Sources */,
+				42A1E4C02C32F9CC00AE6FD8 /* ArticleDisplayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		426284872C3015B000B695BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		426284882C3015B000B695BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4262848A2C3015B000B695BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HappyGraduation/Preview Content\"";
+				DEVELOPMENT_TEAM = C47PSR6843;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-.HappyGraduation";
+				PRODUCT_NAME = "畢 ya 了";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4262848B2C3015B000B695BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HappyGraduation/Preview Content\"";
+				DEVELOPMENT_TEAM = C47PSR6843;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-.HappyGraduation";
+				PRODUCT_NAME = "畢 ya 了";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		426284762C3015AE00B695BE /* Build configuration list for PBXProject "HappyGraduation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				426284872C3015B000B695BE /* Debug */,
+				426284882C3015B000B695BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		426284892C3015B000B695BE /* Build configuration list for PBXNativeTarget "HappyGraduation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4262848A2C3015B000B695BE /* Debug */,
+				4262848B2C3015B000B695BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		426284992C30347C00B695BE /* XCRemoteSwiftPackageReference "VideoPlayer" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/wxxsw/VideoPlayer";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4262849A2C30347C00B695BE /* VideoPlayer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 426284992C30347C00B695BE /* XCRemoteSwiftPackageReference "VideoPlayer" */;
+			productName = VideoPlayer;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 426284732C3015AE00B695BE /* Project object */;
+}
