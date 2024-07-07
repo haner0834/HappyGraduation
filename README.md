@@ -1,5 +1,7 @@
 # Graduation Gift App
 
+Language:  [English](README.md) | [中文](README_zh.md)
+
 This is an iOS application developed using Swift and SwiftUI, created as a graduation gift for a friend. It displays a series of articles with content including text, images, and videos, presented sentence by sentence on the screen.
 
 ## Features
