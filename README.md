@@ -60,5 +60,5 @@ This is an iOS application developed using Swift and SwiftUI, created as a gradu
 ## Contact
 
 If you have any questions or suggestions, please contact me:
-- Email: [linandy40804@gmail.com](linandy40804@gmail.com)
+- Email: [linandy40804@gmail.com](mailto:linandy40804@gmail.com)
 - GitHub: [haner0834](https://github.com/haner0834)
